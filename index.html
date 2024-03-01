@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
+    <!--/GOOGLE FONTS-->
+
+    <!--BOOT STRAP ICONS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOT STRAP ICONS-->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleBarras.css">
+    <link rel="stylesheet" href="cards.css">
+
+    
+</head>
+
+<body>
+
+    <header id="header" ><!--header-->
+        <div class="container">
+
+            <div class="flex">
+                
+                <a href="#"><p>THALES AUGUSTO</p></a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#projetos">PROJETOS</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn-contato">
+                    <a href="mailto:thales_addo1@hotmail.com"><i class="bi bi-envelope-at-fill"></i>thalesaddo@hotmail.com</a>                    
+                </div>
+
+            </div>
+
+        </div><!--container-->
+    </header>
+
+    <div><!--banner-->
+        <div class="txt-animado">
+            Olá, sou<br><h1>Thales Augusto </h1><br><span class="multiText"></span>
+        </div>
+
+        <section class="banner"></section>
+        
+        <script src="menu.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="typed.js"></script>
+    </div>
+
+    <div class="sobre" id="sobre"><!--sobre-->
+        <div class="skills">
+            <h1>Habilidades</h1>
+            <div class="todas-barras">
+                <div><!--Coluna esquerda-->
+
+                    <ul>
+                        <li>
+                            <h3>HTML</h3>
+                            <span class="barras"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>css</h3>
+                            <span class="barras"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>javascript</h3>
+                            <span class="barras"><span class="java"></span></span>
+                        </li>
+                        <li>
+                            <h3>Kotlin</h3>
+                            <span class="barras"><span class="kotlin"></span></span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <h3>comunicação</h3>
+                            <span class="barras"><span class="comunicacao"></span></span>
+                        </li>
+                        <li>
+                            <h3>Trabalho em equipe</h3>
+                            <span class="barras"><span class="trabalho-equipe"></span></span>
+                        </li>
+                        <li>
+                            <h3>Proatividade</h3>
+                            <span class="barras"><span class="proatividade"></span></span>
+                        </li>
+                        <li>
+                            <h3>liderança</h3>
+                            <span class="barras"><span class="lideranca"></span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sobre-mim">
+            <h1>Sobre mim</h1>
+            <br>
+            <br>
+            <p>Olá, eu sou Thales Augusto, desenvolvedor de software web e mobile. Sou focado em criar soluções inovadoras, eficientes e de alta qualidade para os meus clientes, usando diversas linguagens e tecnologias, tais como HTML, CSS, Java, JavaScript, Kotlin, PHP e SQL.<br><br><br>Também possuo habilidades interpessoais e de comunicação, que me permitem trabalhar muito bem em equipe, entender as necessidades e os problemas dos clientes, e apresentar soluções claras e efetivas. Estou sempre disposto a aprender coisas novas, a me adaptar a diferentes cenários e a enfrentar novos desafios.</p>
+
+            <section class="btns-redes">
+                <ul>
+                    <a href="https://www.linkedin.com/in/thales-augusto-oliviera-77236b18b/">
+                        <li style="--1cor: #1394cf; --2cor: #054c6d;">
+                            <span class="icon"><i class="bi bi-linkedin"></i></span>
+                            <span class="text">LinkedIn</span>
+                        </li>
+                    </a>
+                    <a href="https://github.com/ThalesDomingos">
+                        <li style="--1cor: #585454; --2cor: #000000;">
+                            <span class="icon"><i class="bi bi-github"></i></span>
+                            <span class="text">GitHub</span>
+                        </li>
+                    </a>
+                    <a href="https://api.whatsapp.com/message/UO4QFBQQNBTHP1?autoload=1&app_absent=0">
+                        <li style="--1cor: #43fe84; --2cor: #2dbc5d;">
+                            <span class="icon"><i class="bi bi-whatsapp"></i></span>
+                            <span class="text">Whatsapp</span>
+                        </li>
+                    </a>
+                    <a href="Thales-Augusto-Domingos-de-Oliveira.pdf" download>
+                        <li style="--1cor: #bda571; --2cor: #f08b2c;">
+                            <span class="icon"><i class="bi bi-file-earmark-arrow-down"></i></span>
+                            <span class="text">Download CV</span>
+                        </li>
+                    </a>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script src="scrollview.js"></script>
+
+    <section class="projetos" id="projetos">
+        <h1>Projetos</h1>
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Landing page</h4>
+                            <p>Aplicando alguns dos meus conhecimentos em HTML, CSS e JS</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Site para marca Allin</h4>
+                            <p>Aplicado a biblioteca Three.js para apresentação de elementos 3D</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Globalization</h4>
+                            <p>Help People all of the world</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Landing page</h4>
+                            <p>HTML, CSS, javascript e teste de resposividade para dispositivos móveis</p>
+                        </div>
+                    </div>
+                </label>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container3">
+
+            <div class="flex">
+                
+                <a href="#"><p>THALES AUGUSTO</p></a>
+
+                <section class="btns-redes-footer">
+                    <ul>
+                        <a href="https://www.linkedin.com/in/thales-augusto-oliviera-77236b18b/">
+                            <li style="--1cor: #1394cf; --2cor: #054c6d;">
+                                <span class="icon"><i class="bi bi-linkedin"></i></span>
+                                <span class="text">LinkedIn</span>
+                            </li>
+                        </a>
+                        <a href="https://github.com/ThalesDomingos">
+                            <li style="--1cor: #585454; --2cor: #000000;">
+                                <span class="icon"><i class="bi bi-github"></i></span>
+                                <span class="text">GitHub</span>
+                            </li>
+                        </a>
+                        <a href="https://api.whatsapp.com/message/UO4QFBQQNBTHP1?autoload=1&app_absent=0">
+                            <li style="--1cor: #43fe84; --2cor: #2dbc5d;">
+                                <span class="icon"><i class="bi bi-whatsapp"></i></span>
+                                <span class="text">Whatsapp</span>
+                            </li>
+                        </a>
+                        
+                    </ul>
+                </section>
+
+                <div class="btn-contato">
+                    <a href="mailto:thales_addo1@hotmail.com"><i class="bi bi-envelope-at-fill"></i>thalesaddo@hotmail.com</a>                    
+                </div>
+
+            </div>
+
+        </div><!--container-->
+    </footer>
+</body>
+</html>
